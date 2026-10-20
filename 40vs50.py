@@ -12,7 +12,7 @@ st.write("Discover the performance and specs between 40 and 50 series Gpus.")
 @st.cache_data
 def load_data():
     data = {
-        "Model": ["RTX 4050(Laptop)", "RTX 4060","RTX 4070", "RTX 4070 Ti", "RTX 4080", "RTX 4090", "RTX 5050", "RTX 5060", "RTX 5070", "RTX 5070 Ti", "RTX 5080", "RTX 5090"],
+        "Model": ["RTX 4050(L)", "RTX 4060","RTX 4070", "RTX 4070 Ti", "RTX 4080", "RTX 4090", "RTX 5050", "RTX 5060", "RTX 5070", "RTX 5070 Ti", "RTX 5080", "RTX 5090"],
         "Series": ["40 Series", "40 Series", "40 Series", "40 Series", "40 Series", "40 Series", "50 Series", "50 Series", "50 Series", "50 Series", "50 Series", "50 Series"],
         "Architecture": ["Ada Lovelace", "Ada Lovelace", "Ada Lovelace", "Ada Lovelace", "Ada Lovelace", "Ada Lovelace", "Blackwell", "Blackwell", "Blackwell", "Blackwell", "Blackwell", "Blackwell"],
         "VRAM_GB": [6, 8, 12, 12, 16, 24, 8, 8, 12, 16, 16, 32],
